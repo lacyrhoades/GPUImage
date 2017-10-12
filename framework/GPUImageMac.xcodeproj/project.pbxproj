@@ -1558,7 +1558,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_MODULE_NAME = GPUImage;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1586,7 +1585,6 @@
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_MODULE_NAME = GPUImage;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
