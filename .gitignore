@@ -1,5 +1,6 @@
 # Exclude the build directory
 build/*
+framework/build/*
 examples/FilterShowcase/build*
  
 # Exclude temp nibs and swap files
@@ -22,4 +23,3 @@ xcuserdata
 
 # Documentation
 documentation/*
-
