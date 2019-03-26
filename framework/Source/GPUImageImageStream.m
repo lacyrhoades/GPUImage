@@ -24,7 +24,8 @@
 
 - (void)update;
 {
-    [self updateWithTimestamp:kCMTimeIndefinite];
+    CMTime currentTime = CMClockGetTime(CMClockGetHostTimeClock());
+    [self updateWithTimestamp:currentTime];
 }
 
 - (void)updateUsingCurrentTime;
